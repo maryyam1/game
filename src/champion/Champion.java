@@ -34,6 +34,8 @@ public abstract class Champion {
     public void addClothToChampion(Clothing clot)  {
         this.cloth.add(clot);
         clot.owner=this;
+        //asdfghjk
+        //asdfghj
     }
     public Champion(String name, int speed){
         this.name=name;
@@ -48,7 +50,7 @@ public abstract class Champion {
     }
     protected void attack(Champion enemy){
         enemy.health-=damage;
-        stamina-=50;
+        stamina-=20;
         System.out.println("super class");
     }
     public void checkAndAttack(Champion enemy){
